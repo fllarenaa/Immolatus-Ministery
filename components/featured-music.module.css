@@ -1,0 +1,190 @@
+.container {
+  width: 100%;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.card {
+  background-color: white;
+  border: 1px solid var(--border-color);
+  border-radius: 8px;
+  overflow: hidden;
+  transition: all 0.3s;
+  box-shadow: var(--shadow);
+}
+
+.card:hover {
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+  transform: translateY(-2px);
+}
+
+.cardContent {
+  position: relative;
+}
+
+.imageContainer {
+  position: relative;
+  overflow: hidden;
+}
+
+.eraLabel {
+  position: absolute;
+  top: 0.5rem;
+  right: 0.5rem;
+  background-color: rgba(17, 17, 17, 0.8);
+  color: var(--text-light);
+  font-size: 0.75rem;
+  padding: 0.25rem 0.5rem;
+  font-weight: 500;
+  border-radius: 4px;
+  z-index: 2;
+}
+
+.image {
+  width: 100%;
+  aspect-ratio: 1;
+  object-fit: cover;
+}
+
+.overlay {
+  position: absolute;
+  inset: 0;
+  background-color: rgba(17, 17, 17, 0);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  transition: all 0.3s;
+  opacity: 0;
+}
+
+.card:hover .overlay {
+  background-color: rgba(17, 17, 17, 0.7);
+  opacity: 1;
+}
+
+.overlayButton {
+  border-radius: 50%;
+  height: 2rem;
+  width: 2rem;
+  background-color: rgba(255, 255, 255, 0.9);
+  color: var(--primary-dark);
+  border: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.2s;
+}
+
+.overlayButton:hover {
+  background-color: white;
+  transform: scale(1.1);
+}
+
+.cardInfo {
+  padding: 0.75rem;
+  border-top: 1px solid var(--border-color);
+}
+
+.cardTitle {
+  font-family: "Cinzel", serif;
+  font-weight: 500;
+  color: var(--primary-dark);
+  margin-bottom: 0.25rem;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-size: 0.875rem;
+}
+
+.cardArtist {
+  font-size: 0.75rem;
+  color: #666;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.viewAllContainer {
+  display: flex;
+  justify-content: center;
+}
+
+.viewAllButton {
+  border: 1px solid var(--border-color);
+  color: var(--primary-dark);
+  background-color: transparent;
+  font-family: "Cinzel", serif;
+  padding: 0.75rem 1.5rem;
+  border-radius: 6px;
+  transition: all 0.2s;
+  font-size: 0.875rem;
+}
+
+.viewAllButton:hover {
+  background-color: var(--gold-light);
+  transform: translateY(-1px);
+}
+
+/* Tablet */
+@media (min-width: 640px) {
+  .grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.25rem;
+  }
+
+  .overlayButton {
+    height: 2.25rem;
+    width: 2.25rem;
+  }
+
+  .overlay {
+    gap: 0.75rem;
+  }
+
+  .cardInfo {
+    padding: 1rem;
+  }
+
+  .cardTitle {
+    font-size: 1rem;
+  }
+
+  .cardArtist {
+    font-size: 0.875rem;
+  }
+}
+
+/* Desktop */
+@media (min-width: 768px) {
+  .grid {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.5rem;
+  }
+
+  .overlayButton {
+    height: 2.5rem;
+    width: 2.5rem;
+  }
+
+  .cardTitle {
+    font-size: 1.125rem;
+  }
+}
+
+/* Large Desktop */
+@media (min-width: 1024px) {
+  .grid {
+    grid-template-columns: repeat(4, 1fr);
+  }
+
+  .cardInfo {
+    padding: 1.25rem;
+  }
+}

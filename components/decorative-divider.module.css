@@ -1,0 +1,70 @@
+.divider {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 2rem 0;
+}
+
+.small {
+  max-width: 20rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.medium {
+  max-width: 28rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.large {
+  max-width: 32rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.line {
+  height: 1px;
+  flex: 1;
+  background-color: var(--border-color);
+}
+
+.icon {
+  padding: 0 1rem;
+  color: var(--primary-gold);
+  background-color: #f8f8f8;
+}
+
+.largeContainer {
+  width: 100%;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.largeLine {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: center;
+}
+
+.largeBorder {
+  width: 100%;
+  border-top: 2px solid var(--border-color);
+}
+
+.largeIcon {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  color: var(--primary-gold);
+  background-color: #f8f8f8;
+  padding: 0 1rem;
+}
+
+.iconSvg {
+  height: 2rem;
+  width: 2rem;
+}

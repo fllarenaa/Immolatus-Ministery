@@ -1,0 +1,64 @@
+.overlay {
+  position: fixed;
+  inset: 0;
+  z-index: 50;
+  background-color: rgba(0, 0, 0, 0.5);
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.overlayOpen {
+  opacity: 1;
+}
+
+.content {
+  position: fixed;
+  z-index: 50;
+  gap: 1rem;
+  background-color: #f8f8f8;
+  padding: 1.5rem;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+  transition: transform 0.3s;
+  width: 20rem;
+  height: 100vh;
+  overflow-y: auto;
+}
+
+.contentLeft {
+  left: 0;
+  top: 0;
+  border-right: 1px solid var(--border-color);
+  transform: translateX(-100%);
+}
+
+.contentLeftOpen {
+  transform: translateX(0);
+}
+
+.contentRight {
+  right: 0;
+  top: 0;
+  border-left: 1px solid var(--border-color);
+  transform: translateX(100%);
+}
+
+.contentRightOpen {
+  transform: translateX(0);
+}
+
+.header {
+  text-align: left;
+  border-bottom: 1px solid var(--border-color);
+  padding-bottom: 1rem;
+  margin-bottom: 1rem;
+}
+
+.title {
+  color: var(--primary-dark);
+  font-family: "Cinzel", serif;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 1.125rem;
+  font-weight: 600;
+}
