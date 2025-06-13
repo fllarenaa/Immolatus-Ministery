@@ -14,7 +14,7 @@ const cormorant = Cormorant_Garamond({
 })
 
 export const metadata = {
-  title: "Cantus Catholicus - Música Sacra Católica",
+  title: "Immolatus Cantus",
   description: "Um tesouro de música sacra católica através dos séculos",
     generator: 'v0.dev'
 }
