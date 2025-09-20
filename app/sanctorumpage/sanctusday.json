@@ -1,0 +1,183 @@
+[
+  {
+    "date": "18/09",
+    "id": "1",
+    "title": "São Padre Pio",
+    "subtitle": "História de São Padre Pio",
+    "category": "Santos",
+    "difficulty": 1,
+    "principaldescription": "São Padre Pio, luz serena entre as sombras do mundo, viveu imerso na oração e na entrega total a Deus, como quem caminha sobre estrelas sem perder o chão. Seus estigmas, marcas de dor e amor, são testemunhos silenciosos de uma fé que transcende a matéria, lembrando-nos que o verdadeiro milagre está na paciência diante do sofrimento e na compaixão sem limites pelo próximo. Em cada confissão, em cada gesto de bondade, ressoava a música suave de um coração que aprendeu a ouvir a voz de Deus nas pequenas coisas. São Padre Pio nos convida a acreditar que a santidade não é distante ou inalcançável, mas floresce quando nos rendemos ao amor divino, deixando que Ele transforme nossas dores em luz e nossa vida em oração viva.",
+    "description": "Leia e estude a extraordinária história de São Padre Pio de Pietrelcina.",
+    "author": "",
+    "estimatedReadTime": 15,
+    "tags": ["Santos", "História"],
+    "image": "https://r2.padrepauloricardo.org/c7jxv43gkrkcuh1yhdx3pgui8lif",
+    "topics": [
+      { "title": "São Padre Pio", "content": "O canto gregoriano é..." },
+      { "title": "História", "content": "Originou-se na Idade Média..." }
+    ]
+  },
+  {
+    "date": "28/08",
+    "id": "2",
+    "title": "Santo Agostinho",
+    "subtitle": "História de Santo Agostinho",
+    "category": "Santos",
+    "difficulty": 1,
+    "description": "Leia e estude a extraordinária história de Santo Agostinho.",
+    "author": "",
+    "estimatedReadTime": 25,
+    "tags": ["Santos", "História", "Doutor da Igreja"],
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Saint_Augustine_by_Philippe_de_Champaigne.jpg/250px-Saint_Augustine_by_Philippe_de_Champaigne.jpg",
+    "topics": [
+      { "title": "Respiração correta", "content": "Controle da respiração é fundamental..." },
+      { "title": "Projeção de voz", "content": "Aprenda a projetar sua voz..." }
+    ]
+  }, 
+  
+  {
+    "date": "28/01",
+    "id": "3",
+    "title": "Santo Tomás de Aquino",
+    "subtitle": "História de Santo Tomás de Aquino",
+    "category": "Santos",
+    "difficulty": 1,
+    "description": "Leia e estude a extraordinária história de Santo Tomas de Aquino.",
+    "author": "",
+    "estimatedReadTime": 25,  
+    "tags": ["Santos", "História", "Doutor da Igreja"],
+    "image": "https://rumoasantidade.com.br/wp-content/uploads/2017/01/santo-tomas-aquino-doutor-angelico.jpg",
+    "topics": [
+      { "title": "Respiração correta", "content": "Controle da respiração é fundamental..." },
+      { "title": "Projeção de voz", "content": "Aprenda a projetar sua voz..." }
+    ]
+  },
+
+  {
+    "date": "15/10",
+    "id": "4",
+    "title": "Santa Tereza De Ávila",
+    "subtitle": "História de Santa Tereza De Ávila",
+    "category": "Santos",
+    "difficulty": 1,
+    "description": "Leia e estude a extraordinária história de Santa Tereza De Ávila.",
+    "author": "",
+    "estimatedReadTime": 25,  
+    "tags": ["Santos", "História", "Doutura da Igreja"],
+    "image": "https://cruzterrasanta.com.br/_global/_ssf/ssf.aspx?d=/_upload/significados_de_santos/&arquivo=santa-tereza-avilajpg926062013153748.jpg",
+    "topics": [
+      { "title": "Respiração correta", "content": "Controle da respiração é fundamental..." },
+      { "title": "Projeção de voz", "content": "Aprenda a projetar sua voz..." }
+    ]
+  },
+  
+  {
+    "date": "11/07",
+    "id": "5",
+    "title": "São Bento",
+    "subtitle": "História de São Bento",
+    "category": "Santos",
+    "difficulty": 1,
+    "description": "Leia e estude a extraordinária história de São Bento.",
+    "author": "",
+    "estimatedReadTime": 25,  
+    "tags": ["Santos", "História"],
+    "image": "https://sacrificiovivoesanto.wordpress.com/wp-content/uploads/2012/07/image_thumb41.jpg",
+    "topics": [
+      { "title": "Respiração correta", "content": "Controle da respiração é fundamental..." },
+      { "title": "Projeção de voz", "content": "Aprenda a projetar sua voz..." }
+    ]
+  },
+
+    {
+    "date": "19/04",
+    "id": "6",
+    "title": "Santo Expedito",
+    "subtitle": "História de Santo Expedito",
+    "category": "Santos",
+    "difficulty": 1,
+    "description": "Leia e estude a extraordinária história de Santo Expedito.",
+    "author": "",
+    "estimatedReadTime": 25,  
+    "tags": ["Santos", "História", "Martir"],
+    "image": "https://www.arquidioceseolindarecife.org/wp-content/uploads/2018/04/3942santo_expedito.jpg",
+    "topics": [
+      { "title": "Respiração correta", "content": "Controle da respiração é fundamental..." },
+      { "title": "Projeção de voz", "content": "Aprenda a projetar sua voz..." }
+    ]
+  },
+
+   {
+    "date": "01/10",
+    "id": "7",
+    "title": "Santa Terezinha do Menino Jesus",
+    "subtitle": "História de Santa Terezinha do Menino Jesus",
+    "category": "Santos",
+    "difficulty": 1,
+    "description": "Leia e estude a extraordinária história de Santa Terezinha do Menino Jesus.",
+    "author": "",
+    "estimatedReadTime": 25,  
+    "tags": ["Santos", "História",  "Doutura da Igreja"],
+    "image": "https://i.pinimg.com/736x/c1/ab/ea/c1abea9bb3a894bc84827aad5d0cd66d.jpg",
+    "topics": [
+      { "title": "Respiração correta", "content": "Controle da respiração é fundamental..." },
+      { "title": "Projeção de voz", "content": "Aprenda a projetar sua voz..." }
+    ]
+  },
+
+    {
+    "date": "01/10",
+    "id": "8",
+    "title": "Santa Madre Teresa de Calcutá",
+    "subtitle": "História de Santa Madre Teresa de Calcutá",
+    "category": "Santos",
+    "difficulty": 1,
+    "description": "Leia e estude a extraordinária história de Santa Madre Teresa de Calcutá.",
+    "author": "",
+    "estimatedReadTime": 25,  
+    "tags": ["Santos", "História"],
+    "image": "https://img.cancaonova.com/cnimages/especiais/uploads/sites/2/2016/09/santa-teresa-calcuta-canonizada-religiosa-que-doou-a-vida-aos-pobres.jpg",
+    "topics": [
+      { "title": "Respiração correta", "content": "Controle da respiração é fundamental..." },
+      { "title": "Projeção de voz", "content": "Aprenda a projetar sua voz..." }
+    ]
+  },
+
+   {
+    "date": "04/10",
+    "id": "9",
+    "title": "São Francisco de Assis",
+    "subtitle": "História de São Francisco de Assis",
+    "category": "Santos",
+    "difficulty": 1,
+    "description": "Leia e estude a extraordinária história de São Francisco de Assis.",
+    "author": "",
+    "estimatedReadTime": 25,  
+    "tags": ["Santos", "História"],
+    "image": "https://i.pinimg.com/236x/1b/71/b9/1b71b99a3a28e51dc54ce80db010ae16.jpg",
+    "topics": [
+      { "title": "Respiração correta", "content": "Controle da respiração é fundamental..." },
+      { "title": "Projeção de voz", "content": "Aprenda a projetar sua voz..." }
+    ]
+  }, 
+
+    {
+    "date": "04/10",
+    "id": "9",
+    "title": "Santo Antônio",
+    "subtitle": "História de Santo Antônio",
+    "category": "Santos",
+    "difficulty": 1,
+    "description": "Leia e estude a extraordinária história de Santo Antônio.",
+    "author": "",
+    "estimatedReadTime": 25,  
+    "tags": ["Santos", "História", "Doutor da Igreja"],
+    "image": "https://i.pinimg.com/736x/f5/08/aa/f508aad8849ccaa0397ca974bb9e8dd7.jpg",
+    "topics": [
+      { "title": "Respiração correta", "content": "Controle da respiração é fundamental..." },
+      { "title": "Projeção de voz", "content": "Aprenda a projetar sua voz..." }
+    ]
+  }
+
+
+]

@@ -1,0 +1,211 @@
+.hero {
+  position: relative;
+  overflow: hidden;
+  background: linear-gradient(135deg, var(--primary-dark) 0%, #333333 100%);
+  min-height: 60vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--text-light);
+  padding: 2rem 0;
+}
+
+.heroOverlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(17, 17, 17, 0.6);
+}
+
+.heroContent {
+  position: relative;
+  z-index: 10;
+  text-align: center;
+  padding: 0 1rem;
+  width: 100%;
+  /* max-width: 48rem; */
+}
+
+.logoContainer {
+  display: inline-block;
+  margin-bottom: 1rem;
+}
+
+
+.logoInner {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  border: 2px dashed rgba(255, 255, 255, 0.8);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.logoInitials {
+  font-size: 1.75rem;
+  font-family: "Cinzel", serif;
+  color: var(--text-light);
+}
+
+.title {
+  font-size: 2rem;
+  font-family: "Cinzel", serif;
+  color: var(--text-light);
+  margin-bottom: 1rem;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  line-height: 1.2;
+}
+
+.subtitle {
+  font-size: 1rem;
+  color: rgba(255, 255, 255, 0.9);
+  max-width: 28rem;
+  margin: 0 auto 1.5rem;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+  line-height: 1.5;
+}
+
+.actions {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+.searchContainer {
+  position: relative;
+  width: 100%;
+  max-width: 20rem;
+}
+
+.searchIcon {
+  position: absolute;
+  left: 0.75rem;
+  top: 50%;
+  transform: translateY(-50%);
+  height: 1rem;
+  width: 1rem;
+  color: var(--primary-gold);
+}
+
+.searchInput {
+  width: 100%;
+  padding: 0.75rem 0.75rem 0.75rem 2.5rem;
+  background-color: rgba(255, 255, 255, 0.9);
+  border: 1px solid var(--primary-gold);
+  border-radius: 6px;
+  outline: none;
+  color: var(--primary-dark);
+  font-size: 0.875rem;
+}
+
+.searchInput:focus {
+  box-shadow: 0 0 0 2px var(--gold-light);
+}
+
+.searchInput::placeholder {
+  color: #666;
+}
+
+.Logo {
+  margin-top: 10px;
+  margin-left: -2px;
+  transform: scale(2);
+  width: 200px;
+}
+
+/* Tablet */
+@media (min-width: 640px) {
+  .hero {
+    min-height: 65vh;
+    padding: 3rem 0;
+  }
+
+  .logoCircle {
+    width: 4.5rem;
+    height: 4.5rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .logoInitials {
+    font-size: 2rem;
+  }
+
+  .title {
+    font-size: 2.5rem;
+    margin-bottom: 1.25rem;
+  }
+
+  .subtitle {
+    font-size: 1.125rem;
+    margin-bottom: 2rem;
+  }
+
+  .actions {
+    flex-direction: row;
+    gap: 1.5rem;
+  }
+
+  .searchContainer {
+    width: 18rem;
+  }
+}
+
+/* Desktop */
+@media (min-width: 768px) {
+  .hero {
+    min-height: 70vh;
+    padding: 4rem 0;
+  }
+
+  .logoCircle {
+    width: 8rem;
+    height: 8rem;
+  }
+
+  .logoInitials {
+    font-size: 2.5rem;
+  }
+
+  .title {
+    font-size: 3.5rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .subtitle {
+    font-size: 1.25rem;
+    max-width: 32rem;
+    margin-bottom: 2.5rem;
+  }
+
+  .searchInput {
+    padding: 0.875rem 0.875rem 0.875rem 2.75rem;
+    font-size: 1rem;
+  }
+}
+
+/* Large Desktop */
+@media (min-width: 1024px) {
+  .hero {
+    min-height: 75vh;
+  }
+
+  .title {
+    font-size: 4.5rem;
+  }
+
+  .subtitle {
+    font-size: 1.5rem;
+  }
+
+  .actions {
+    gap: 2rem;
+  }
+
+  .searchContainer {
+    width: 20rem;
+  }
+}

@@ -1,0 +1,116 @@
+.main {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  background-color: #f8f8f8;
+  color: var(--primary-dark);
+}
+
+.content {
+  flex: 1;
+  padding: 1rem 0;
+}
+
+.section {
+  margin: 2rem 0;
+}
+
+.sectionTitle {
+  font-size: 1.5rem;
+  text-align: center;
+  color: var(--primary-dark);
+  margin-bottom: 0.5rem;
+  font-family: "Cinzel", serif;
+  line-height: 1.3;
+}
+
+.sectionSubtitle {
+  text-align: center;
+  font-size: 0.875rem;
+  color: #666;
+  max-width: 28rem;
+  margin: 0 auto 2rem;
+  line-height: 1.5;
+  padding: 0 1rem;
+}
+
+.musicPlayer {
+  position: sticky;
+  bottom: 0;
+  width: 100%;
+  background-color: rgba(17, 17, 17, 0.95);
+  border-top: 1px solid var(--primary-gold);
+  backdrop-filter: blur(8px);
+  z-index: 40;
+}
+
+.gridContainer {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1.5rem;
+}
+
+/* Tablet */
+@media (min-width: 640px) {
+  .content {
+    padding: 1.5rem 0;
+  }
+
+  .section {
+    margin: 2.5rem 0;
+  }
+
+  .sectionTitle {
+    font-size: 1.875rem;
+  }
+
+  .sectionSubtitle {
+    font-size: 1rem;
+    max-width: 32rem;
+    margin-bottom: 2.5rem;
+  }
+
+  .gridContainer {
+    gap: 2rem;
+  }
+}
+
+/* Desktop */
+@media (min-width: 768px) {
+  .content {
+    padding: 2rem 0;
+  }
+
+  .section {
+    margin: 3rem 0;
+  }
+
+  .sectionTitle {
+    font-size: 2.25rem;
+  }
+
+  .sectionSubtitle {
+    font-size: 1.125rem;
+    margin-bottom: 3rem;
+  }
+}
+
+/* Large Desktop */
+@media (min-width: 1024px) {
+  .content {
+    padding: 2.5rem 0;
+  }
+
+  .section {
+    margin: 4rem 0;
+  }
+
+  .sectionTitle {
+    font-size: 2.5rem;
+  }
+
+  .gridContainer {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2.5rem;
+  }
+}

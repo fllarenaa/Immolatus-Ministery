@@ -1,0 +1,40 @@
+.table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.tableHeader {
+  background-color: var(--gold-light);
+}
+
+.tableRow {
+  border-bottom: 1px solid var(--border-color);
+  transition: background-color 0.2s;
+}
+
+.tableRow:hover {
+  background-color: var(--gold-light);
+}
+
+.tableHead {
+  padding: 0.75rem;
+  text-align: left;
+  font-weight: 600;
+  color: var(--primary-dark);
+  font-family: "Cinzel", serif;
+  font-size: 0.875rem;
+}
+
+.tableCell {
+  padding: 0.75rem;
+  color: var(--primary-dark);
+  font-size: 0.875rem;
+}
+
+.tableCellRight {
+  text-align: right;
+}
+
+.tableCellCenter {
+  text-align: center;
+}

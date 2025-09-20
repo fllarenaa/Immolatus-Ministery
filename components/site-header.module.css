@@ -1,0 +1,141 @@
+.header {
+  position: sticky;
+  top: 0;
+  z-index: 40;
+  width: 100%;
+  border-bottom: 1px solid var(--border-color);
+  background-color: rgba(248, 248, 248, 0.95);
+  backdrop-filter: blur(8px);
+}
+
+.headerBorder {
+  width: 100%;
+  height: 3px;
+  background: linear-gradient(to right, var(--primary-dark), var(--primary-gold), var(--primary-dark));
+}
+
+.headerContent {
+  display: flex;
+  height: 3.5rem;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 1rem;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  text-decoration: none;
+  color: inherit;
+}
+
+.logoIcon {
+  position: relative;
+  height: 2rem;
+  width: 2rem;
+  overflow: hidden;
+  border-radius: 50%;
+  background-color: var(--primary-dark);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid var(--primary-gold);
+  flex-shrink: 0;
+}
+
+.logoText {
+  font-size: 1rem;
+  font-family: "Cinzel", serif;
+  font-weight: bold;
+  color: var(--primary-dark);
+  display: none;
+}
+
+.nav {
+  display: none;
+  align-items: center;
+  gap: 1rem;
+  font-size: 0.75rem;
+}
+
+.navLink {
+  font-weight: 500;
+  color: var(--primary-dark);
+  text-decoration: none;
+  transition: color 0.2s;
+  font-family: "Cinzel", serif;
+  white-space: nowrap;
+  padding: 0.5rem;
+  border-radius: 4px;
+}
+
+.navLink:hover {
+  color: var(--primary-gold);
+  background-color: var(--gold-light);
+}
+
+.actions {
+  display: flex;
+  align-items: center;
+  gap: 0.25rem;
+}
+
+/* Tablet */
+@media (min-width: 640px) {
+  .headerContent {
+    height: 4rem;
+    padding: 0 1.5rem;
+  }
+
+  .headerBorder {
+    height: 4px;
+  }
+
+  .logo {
+    gap: 0.75rem;
+  }
+
+  .logoIcon {
+    height: 2.25rem;
+    width: 2.25rem;
+  }
+
+  .logoText {
+    display: inline-block;
+    font-size: 1.125rem;
+  }
+
+  .actions {
+    gap: 0.5rem;
+  }
+}
+
+/* Desktop */
+@media (min-width: 768px) {
+  .nav {
+    display: flex;
+    gap: 1.5rem;
+    font-size: 0.875rem;
+  }
+
+  .logoIcon {
+    height: 2.5rem;
+    width: 2.5rem;
+  }
+
+  .logoText {
+    font-size: 1.25rem;
+  }
+}
+
+/* Large Desktop */
+@media (min-width: 1024px) {
+  .nav {
+    gap: 2rem;
+  }
+
+  .navLink {
+    padding: 0.75rem 1rem;
+  }
+}

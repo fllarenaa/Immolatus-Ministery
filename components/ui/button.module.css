@@ -1,0 +1,90 @@
+.button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 6px;
+  font-size: 0.875rem;
+  font-weight: 500;
+  transition: all 0.2s;
+  cursor: pointer;
+  border: none;
+  text-decoration: none;
+  font-family: "Cinzel", serif;
+}
+
+.button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+/* Tamanhos */
+.sm {
+  height: 2rem;
+  padding: 0 0.75rem;
+  font-size: 0.75rem;
+}
+
+.default {
+  height: 2.5rem;
+  padding: 0 1rem;
+}
+
+.lg {
+  height: 3rem;
+  padding: 0 2rem;
+  font-size: 1rem;
+}
+
+.icon {
+  height: 2.5rem;
+  width: 2.5rem;
+  padding: 0;
+}
+
+.iconSm {
+  height: 2rem;
+  width: 2rem;
+  padding: 0;
+}
+
+/* Variantes */
+.primary {
+  background-color: var(--primary-gold);
+  color: var(--primary-dark);
+}
+
+.primary:hover {
+  background-color: var(--gold-dark);
+}
+
+.secondary {
+  background-color: var(--primary-dark);
+  color: var(--text-light);
+}
+
+.secondary:hover {
+  background-color: #333333;
+}
+
+.outline {
+  background-color: transparent;
+  color: var(--primary-dark);
+  border: 1px solid var(--border-color);
+}
+
+.outline:hover {
+  background-color: var(--gold-light);
+}
+
+.ghost {
+  background-color: transparent;
+  color: var(--primary-dark);
+}
+
+.ghost:hover {
+  background-color: var(--gold-light);
+}
+
+.rounded {
+  border-radius: 50%;
+}
