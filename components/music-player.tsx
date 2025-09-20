@@ -42,8 +42,12 @@ export function MusicPlayer() {
 
   if (!currentMusic) {
     return (
-      <div className="bg-stone-900/95 backdrop-blur-sm border-t border-amber-500/30 p-3">
-      
+       <div className="bg-stone-900/95 backdrop-blur-sm border-t border-amber-500/30 p-3">
+        <div className="container mx-auto">
+          <div className="flex items-center justify-center text-amber-200/60 text-sm font-cinzel">
+            Nenhuma música selecionada
+          </div>
+        </div>
       </div>
     )
   }

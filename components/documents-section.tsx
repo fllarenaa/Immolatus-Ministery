@@ -24,14 +24,14 @@ interface ModuleRecord {
 const mockModules: ModuleRecord[] = [
   {
     id: "1",
-    title: "Introdução ao Canto Gregoriano",
-    subtitle: "História e fundamentos",
+    title: "Manual de Conversão",
+    subtitle: "Converta-se à Fé Católica, já!",
     category: "Música Sacra",
     difficulty: 1,
-    description: "Aprenda os fundamentos do canto gregoriano, sua história e importância na liturgia.",
-    author: "Padre João",
+    description: "É como um pequeno livro-guia feito para quem deseja conhecer e abraçar a Igreja de forma clara e segura.",
+    author: "Immolatus",
     estimatedReadTime: 15,
-    tags: ["gregoriano", "história", "iniciantes"],
+    tags: ["Conversão", "História", "Iniciantes", "Manual"],
     topics: [
       { title: "O que é canto gregoriano?", content: "O canto gregoriano é..." },
       { title: "História", content: "Originou-se na Idade Média..." },

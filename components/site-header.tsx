@@ -22,6 +22,20 @@ export function SiteHeader() {
           </div>
 
           <nav className="hidden md:flex items-center gap-6 text-sm">
+             <Link
+              href="/documents"
+              className="font-cinzel font-medium text-amber-800 hover:text-amber-600 transition-colors"
+            >
+              Documentos
+            </Link>
+            
+            <Link
+              href="/sanctorumpage"
+              className="font-cinzel font-medium text-amber-800 hover:text-amber-600 transition-colors"
+            >
+              Santos
+            </Link>
+           
             <Link
               href="/chant"
               className="font-cinzel font-medium text-amber-800 hover:text-amber-600 transition-colors"
@@ -35,22 +49,10 @@ export function SiteHeader() {
               Polifonia Sacra
             </Link>
             <Link
-              href="/sanctorumpage"
-              className="font-cinzel font-medium text-amber-800 hover:text-amber-600 transition-colors"
-            >
-              Santos
-            </Link>
-            <Link
-              href="/documents"
-              className="font-cinzel font-medium text-amber-800 hover:text-amber-600 transition-colors"
-            >
-              Documentos
-            </Link>
-            <Link
               href="/manage-music"
               className="font-cinzel font-medium text-amber-800 hover:text-amber-600 transition-colors"
             >
-              Gerenciar Músicas
+              Músicas
             </Link>
           </nav>
 

@@ -6,17 +6,16 @@ import { Menu, Music, BookOpen, Calendar, Users, FileText, HelpCircle } from "lu
 import Link from "next/link"
 
 export function MobileNav() {
-  const navItems = [
+  const navItems = [    
+    { icon: FileText, label: "Artigos", href: "/articles" },
+     { icon: FileText, label: "Vida dos Santos", href: "/sanctorumpage" },
     { icon: Music, label: "Canto Gregoriano", href: "/chant" },
     { icon: Music, label: "Polifonia Sacra", href: "/polyphony" },
-    { icon: Music, label: "Hinos", href: "/hymns" },
-    { icon: Music, label: "Música Sacra Moderna", href: "/modern" },
     { icon: BookOpen, label: "Minha Biblioteca", href: "/library" },
-    { icon: Music, label: "Gerenciar Músicas", href: "/manage-music" },
+    { icon: Music, label: "Músicas", href: "/manage-music" },
     { icon: FileText, label: "Documentos", href: "/documents" },
     { icon: Calendar, label: "Calendário Litúrgico", href: "/calendar" },
-    { icon: Users, label: "Artistas em Destaque", href: "/artists" },
-    { icon: FileText, label: "Artigos", href: "/articles" },
+
     { icon: HelpCircle, label: "Sobre", href: "/about" },
   ]
 

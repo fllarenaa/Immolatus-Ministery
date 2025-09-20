@@ -100,7 +100,7 @@ export function SanctumDay() {
             </div>
 
             <div className="absolute -bottom-4 -right-4 bg-amber-100 border border-amber-800/30 p-3 rounded shadow-md">
-              <p className="text-sm font-medium text-amber-900">Hoje é dia deste Santo</p>
+              <p className="text-sm font-medium text-amber-900">Immolatus</p>
               <p className="text-xs text-amber-800">{module.title}</p>
             </div>
           </div>

@@ -1,4 +1,5 @@
 import { Button } from "@/components/ui/button"
+import  Link  from "next/link"
 import { Play } from "lucide-react"
 
 export function FeaturedArtist() {
@@ -35,9 +36,11 @@ export function FeaturedArtist() {
             </div>
 
             <div className="flex flex-wrap gap-4">
+              <Link href="/documents/1">
               <Button className="bg-amber-900 hover:bg-amber-800 text-amber-100 border border-amber-700/50 font-cinzel">
                 Ler Agora
               </Button>
+              </Link>
               {/* <Button variant="outline" className="border-amber-800/30 text-amber-900 font-cinzel">
                 Biografia do Artista
               </Button> */}
